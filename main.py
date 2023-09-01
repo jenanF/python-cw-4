@@ -11,7 +11,8 @@ def my_meal(food, drink):
 my_meal('cookies', "milk")
 
 def cube(number):
-    return number*number*number
+   # return number*number*number
+   return pow(number,3)
 
 print(cube(9))
 
